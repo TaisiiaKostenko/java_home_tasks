@@ -1,0 +1,13 @@
+package com.epam.hw2_3;
+
+public class hw2_3 {
+
+    public static void main(String[] args) {
+		double pound = 12;
+		double weight = pound * 0.4536;
+		double gramm = (weight - (int)weight) * 1000;
+
+		System.out.println("Weight in kilograms is " + (int)weight +" kg "+ (int)gramm + " gr");
+
+	}
+}
