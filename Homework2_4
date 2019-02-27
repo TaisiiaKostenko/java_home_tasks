@@ -8,7 +8,7 @@ public class hw2_2 {
         int days = 181;
         int percents = 12;
         
-        double income = (deposit * percents * days) / 365 * 100;
+        double income = (deposit * (percents/100) * days) / 365 * 100;
         System.out.println(income);
     }
 }
