@@ -1,0 +1,17 @@
+package com.epam.hw2_1;
+
+public class hw2_1 {
+
+    public static void main(String[] args) {
+	int a = 7;
+	int b = 12;
+		System.out.println("a = " + a);
+		System.out.println("b =" + b);
+		a = a + b;
+		b = b - a;
+		b = -b;
+		a = a - b;
+		System.out.println("a = " + a);
+		System.out.println("b =" + b);
+    }
+}
