@@ -5,10 +5,10 @@ public class hw2_2 {
     public static void main(String[] args) {
     
         double deposit = 1000;
-        int month = 6;
+        int days = 181;
         int percents = 12;
         
-        double income = (deposit / 100 * percents) / 12 * month;
+        double income = (deposit * percents * days) / 365 * 100;
         System.out.println(income);
     }
 }
