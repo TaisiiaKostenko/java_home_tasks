@@ -6,4 +6,4 @@ while(n != 0){
      n1 = n1*10 + n%10;
      n /= 10;
 }
-System.out.println(n1);
+System.out.println(reverseNumber);
