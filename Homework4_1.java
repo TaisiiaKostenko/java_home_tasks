@@ -16,7 +16,7 @@ public class Homework4_1 {
             if (count < 1){
                 m += str.charAt(i);
             } else {
-                c = 0;
+                count = 0;
             }
         }
         return m;
