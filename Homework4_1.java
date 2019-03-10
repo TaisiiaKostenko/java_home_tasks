@@ -19,7 +19,7 @@ public class Homework4_1 {
                 c = 0;
             }
         }
-        return l;
+        return m;
     }
     public static void main(String[] args) {
         System.out.println("Unique chars ->" + uniqueСhar());
