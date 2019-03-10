@@ -4,7 +4,7 @@ public class Homework4_1 {
     public static String uniqueСhar() {
         String m = "";
         String str = "Beautiful world";
-        int c = 0;
+        int count = 0;
         char chars[] = str.toCharArray();
 
         for (int i = 0; i < str.length(); i++){
