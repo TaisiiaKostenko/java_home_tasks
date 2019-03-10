@@ -2,9 +2,9 @@ package classwork4;
 
 public class Homework4_1 {
     public static String uniqueСhar() {
-        String l = "";
+        String m = "";
         String str = "Beautiful world";
-        int count = 0;
+        int c = 0;
         char chars[] = str.toCharArray();
 
         for (int i = 0; i < str.length(); i++){
@@ -14,9 +14,9 @@ public class Homework4_1 {
                 }
             }
             if (count < 1){
-                l += str.charAt(i);
+                m += str.charAt(i);
             } else {
-                count = 0;
+                c = 0;
             }
         }
         return l;
