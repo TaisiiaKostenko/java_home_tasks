@@ -41,8 +41,8 @@ public class Homework5_2 {
                 quantity++;
             }
         }
-        int[] Array ={sum,quantity};
-        return Array;
+        int[] arrayOfResults ={sum,quantity};
+        return arrayOfResults;
     }
 }
 
