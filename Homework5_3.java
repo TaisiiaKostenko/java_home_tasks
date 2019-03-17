@@ -26,7 +26,7 @@ public class Homework5_3 {
         int[] arrayInt = new int[size];
 
         for (int i= 0; i<arrayInt.length; i++){
-            arrayInt[i] = (int)(Math.random() * 15);
+            arrayInt[i] = (int)()Math.random() * 15) - 5);
         }
 
         return arrayInt;
