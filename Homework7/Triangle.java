@@ -19,11 +19,11 @@ public class Triangle extends Shape {
 
         @Override
         public String toString() {
-            return super.toString() + ": a -> " + a + ": b -> " + b + ": c " + c;
+            return super.toString() + ": a -> " + a + ": b -> " + b + ": c -> " + c;
         }
 
         @Override
-    public double calcArea(){
+        public double calcArea(){
             double d = a + b + c;
             double area = Math.sqrt(d* (d-a) * (d-b) * (d-c));
             return area;
